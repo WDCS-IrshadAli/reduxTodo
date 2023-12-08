@@ -1,0 +1,145 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: 'Bebas Neue', sans-serif; */
+  /* font-family: 'Poppins'; */
+}
+
+.marksheet-maindiv {
+
+    background: #b08848 ; color: #222; padding: 80px 5px 80px 5px;
+}
+
+.marksheet-outerdiv {
+    display: flex; justify-content: center; align-items: center;
+    flex-direction: column; 
+    padding: 15px;
+    background: lightgoldenrodyellow;
+    border-radius: 8px;
+}
+
+.marksheet-innerdiv {
+    width: 100%; max-width: 800px; border: 6px double #b08848; padding: 15px;
+    border-radius: 8px;
+}
+
+.marksheet-firstmaindiv {
+    display: flex; flex-direction: column; justify-content: space-between; text-align: center;
+}
+
+.marksheet-firstmaindiv-indexno {
+    display: flex; justify-content: space-between;
+}
+
+.marksheet-firstmaindiv-indexno h4 {
+    color: #d10019; font-size: 14px;
+}
+
+.marksheet-firstmaindiv-indexno span {
+    color: #222;
+}
+
+.marksheet-firstmaindiv-universityname {
+    font-size: 20px; padding: 50px 0 25px 0;
+}
+
+.marksheet-firstmaindiv-universityname h1 {
+    font-family: 'UnifrakturMaguntia', cursive; font-weight: normal;
+    color: #d10019;
+}
+
+.marksheet-firstmaindiv-universitylogo {
+    margin-bottom: 20px;
+}
+
+.marksheet-firstmaindiv-universitylogo img {
+    height: 100px; width: 100px; object-fit: contain;
+}
+
+.marksheet-firstmaindiv-examinationname {
+    display: flex; justify-content: center; align-items: center; margin-bottom: 25px;
+    color: #d10019;
+}
+
+.marksheet-firstmaindiv-examinationname div {
+    width: 100%; max-width: 300px;
+}
+
+.marksheet-firstmaindiv-rollno {
+    display: flex; flex-direction: row; justify-content: center; align-items: center; font-size: 14px;margin-bottom: 30px;
+}
+
+.marksheet-firstmaindiv-rollno span {
+    border: 2px solid #222; padding: 5px;
+}
+
+/* 2nd section  */
+
+.marksheet-secondmaindiv {
+    margin-top: 25px;
+}
+
+.marksheet-secondmaindiv-profile {
+    font-size: 14px; display: flex; flex-direction: column; gap: 10px; margin-bottom: 25px;
+}
+
+.marksheet-secondmaindiv-profile div {
+    color: #d10019;
+}
+
+.marksheet-secondmaindiv-profile span {
+    margin-left: 15px; font-style: italic;
+    color: #222;
+}
+
+.marksheet-thirdmaindiv {
+    display: flex; flex-direction: row; justify-content: space-between; flex-wrap: wrap;
+}
+
+.marksheet-thirdmaindiv p {
+    font-size: 14px; margin-bottom: 10px; margin-top: 30px;
+}
+
+.marksheet-fourthmaindiv {
+    display: flex; flex-direction: row; justify-content: space-between; margin-top: 30px; margin-bottom: 20px; font-size: 14px;
+}
+
+.marksheet-fourthmaindiv div {
+    display: flex; flex-direction: column;
+}
+
+.marksheet-fourthmaindiv img {
+    height: 80px; width: 80px; object-fit: contain;
+}
+
+.marksheet-fourthmaindiv span {
+    font-size: 14px;
+    color: #d10019;
+}
+
+/* #d10019
+#b08848  golden*/
+
+table {
+    width: 100%;
+}
+
+table, tr, td, th {
+    border: 1px solid #222;
+    border-collapse: collapse;
+    padding: 5px;
+    font-size: 14px;
+}
+
+tr:hover {
+    background: lightgrey;
+}
+
+th {
+    font-weight: bold;
+    color: #d10019;
+}
